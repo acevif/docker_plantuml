@@ -1,6 +1,6 @@
 FROM openjdk:19-jdk-alpine3.16
 LABEL org.opencontainers.image.authors="acevif@gmail.com"
-ENV PLANTUML_VERSION=1.2023.1
+ENV PLANTUML_VERSION=1.2023.7
 ENV LANG en_US.UTF-8
 RUN \
   apk add --no-cache graphviz wget ca-certificates ttf-dejavu fontconfig && \
